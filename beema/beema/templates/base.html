@@ -1,0 +1,50 @@
+{% load static wagtailuserbar %}
+
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        {% block title %} 
+            {% if self.seo_title %}
+                {{ self.seo_title }}
+                {% else %}
+                    {{ self.title }}
+            {% endif %} 
+        {% endblock %} 
+        
+        {% block title_suffix %} 
+            {% with self.get_site.site_name as site_name %} 
+                {% if site_name %}- {{ site_name }}{% endif %} 
+            {% endwith %} 
+        {% endblock %}
+    </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> {# Global stylesheets #}
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"> {% wagtailuserbar %}
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/beema.css' %}"> {% block extra_css %} {# Override this in templates to add extra stylesheets #} {% endblock %}
+</head>
+
+<body>
+    {% wagtailuserbar %}
+    <!-- include navbar -->
+    {% include '_partials/navbar.html' %}
+    <!-- include content -->
+    {% block content %}{% endblock %}
+    <!-- include footer -->
+    {% include '_partials/footer.html' %}
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/beema.js' %}"></script> {% block extra_js %}
+    <!-- extra js goes here -->
+    {% endblock %}
+</body>
+
+</html>

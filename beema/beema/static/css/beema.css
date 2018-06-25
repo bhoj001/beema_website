@@ -1,0 +1,46 @@
+/* footer */
+
+.header-title {
+  text-transform: uppercase !important;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333333 !important;
+}
+
+.beema-section {
+  padding-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.beema-section > ul {
+    margin-top: 0px;
+}
+
+footer  ul li a {
+    color: #333333;
+    font-size: 0.85rem;
+}
+
+
+
+.beema-section2 {
+    background-color:#003087;
+
+}
+
+.beema-section2 ul > li {
+    display: inline-block;
+    color: #FFF;
+    padding-right: 50px;
+    font-size: 0.9rem;
+    letter-spacing: 0.03rem;
+}
+
+.beema-section2 ul > li > a {
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.beema-section2 ul > li > a:hover {
+    color: #bbbbbb;
+}
