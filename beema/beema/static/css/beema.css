@@ -1,11 +1,17 @@
+/*body */
+body, html {
+    letter-spacing: 0.05rem;
+}
+
 /* footer */
 
 .header-title {
   text-transform: uppercase !important;
   font-size: 1rem;
   font-weight: 500;
-  color: #333333 !important;
+  color: #1F1F1F !important;
   margin-bottom: -7px;
+  letter-spacing: 0.05rem;
 }
 
 .beema-section {
@@ -17,15 +23,24 @@
     margin-top: 0px;
 }
 
-footer  ul li a {
-    color: #333333;
+
+footer div.beema-section  ul li  a {
+    color: #454545;
     font-size: 0.85rem;
+    margin-bottom: 0px;
+    letter-spacing: 0.05rem
+
+}
+
+footer div.beema-section  ul li  a:hover {
+    color:#325DB2;
+
 }
 
 
 
 .beema-section2 {
-    background-color:#003087;
+    background-color:#325DB2;
 
 }
 
