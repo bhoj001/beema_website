@@ -3,12 +3,113 @@ body, html {
     letter-spacing: 0.05rem;
 }
 
+a {
+    outline: none !important;
+}
+
+i {
+    line-height: 0px !important;   
+}
+
+.container {
+    width: 90% !important;
+}
+
+
+.top-hr{
+    height: 3px;
+    background: linear-gradient(90deg, #0c5091 0%, #0c5091 75%, #d2212b 75%, #d2212b 100%);
+    margin: 0 0 16px;
+    border: none;
+}
+
+.hr-divider {
+    height: 1px;
+    background: #eeeeee;
+    margin: 0 0 16px;
+    border: none;
+}
+
+
+/* top first navigation */
+.top-first-navigation{
+    font-size: 0.7rem !important;
+    font-weight:500;
+    color:#555555!important;
+    margin: 0px;
+}
+
+.top-first-navigation ul{
+    list-style: none;
+}
+
+.top-first-navigation > ul > li {
+    display: inline-block;
+}
+
+
+ul.top-first-navigation-right  li {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+ul.top-first-navigation-right  li a{
+   color: #555555;
+   text-transform: uppercase;
+   letter-spacing: 0.7px;
+}
+
+ul.top-first-navigation-right  li a:hover{
+    color: #555555;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    border-bottom: 2px solid #325DB2;
+    transition: 5 ;
+ }
+
+ .bottom-navigation > nav {
+    box-shadow: none !important;
+    line-height: 40px !important;
+    height: 80px !important;
+ }
+
+
+
+ .bottom-navigation nav ul li a {
+     color: #555555 !important;
+     font-weight: 500;
+ }
+
+ .bottom-navigation nav ul li a:hover {
+    color: #4261A5 !important;
+    font-weight: 500;
+    border-bottom: 2px solid #325DB2;
+    
+}
+
+ .brand-logo {
+     margin-top:-5px;
+ }
+
+ .dropdown-content {
+     overflow-y: hidden !important;
+ }
+
+ /* notice section css */
+ .notice-section {
+    
+ }
+
+
+
+ 
+
 /* footer */
 
 .header-title {
   text-transform: uppercase !important;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #1F1F1F !important;
   margin-bottom: -7px;
   letter-spacing: 0.05rem;
@@ -28,7 +129,8 @@ footer div.beema-section  ul li  a {
     color: #454545;
     font-size: 0.85rem;
     margin-bottom: 0px;
-    letter-spacing: 0.05rem
+    letter-spacing: 0.05rem;
+    font-weight: 400;
 
 }
 

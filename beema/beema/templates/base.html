@@ -28,6 +28,15 @@
     <!-- fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="{% static 'css/beema.css' %}"> {% block extra_css %} {# Override this in templates to add extra stylesheets #} {% endblock %}
+
+    <!-- materials fonts -->
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- jquery -->
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -40,7 +49,8 @@
     {% include '_partials/footer.html' %}
 
 
-    <!-- Compiled and minified JavaScript -->
+  
+    <!-- Compiled and minified JavaScript of material -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script type="text/javascript" src="{% static 'js/beema.js' %}"></script> {% block extra_js %}
     <!-- extra js goes here -->
