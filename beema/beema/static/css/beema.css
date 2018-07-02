@@ -1,4 +1,8 @@
-/*body */
+/*body 
+blue-color: #2980b9;
+green-color: #27ae60;
+
+*/
 body, html {
     letter-spacing: 0.05rem;
 }
@@ -18,7 +22,7 @@ i {
 
 .top-hr{
     height: 3px;
-    background: linear-gradient(90deg, #0c5091 0%, #0c5091 75%, #d2212b 75%, #d2212b 100%);
+    background: linear-gradient(90deg, #2980b9 0%, #2980b9 75%, #27ae60 75%, #27ae60 100%);
     margin: 0 0 16px;
     border: none;
 }
@@ -63,7 +67,7 @@ ul.top-first-navigation-right  li a:hover{
     color: #555555;
     text-transform: uppercase;
     letter-spacing: 0.7px;
-    border-bottom: 2px solid #325DB2;
+    border-bottom: 2px solid #2980b9;
     transition: 5 ;
  }
 
@@ -81,9 +85,9 @@ ul.top-first-navigation-right  li a:hover{
  }
 
  .bottom-navigation nav ul li a:hover {
-    color: #4261A5 !important;
+    color: #2980b9 !important;
     font-weight: 500;
-    border-bottom: 2px solid #325DB2;
+    border-bottom: 2px solid #2980b9;
     
 }
 
@@ -97,11 +101,28 @@ ul.top-first-navigation-right  li a:hover{
 
  /* notice section css */
  .notice-section {
+    height: 40px !important;
+    background: #2980b9;
+    background: linear-gradient(90deg, #2980b9 0%, #2980b9 0%, #27ae60 100%, #27ae60 100%);
+    line-height: 30px !important;
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    font-size: 0.89rem;
+
     
  }
 
+.newsticker li  a{
+   color: #FFF !important;
+}
 
+.newsticker li >  a:hover{
+    color: lightcyan !important;
+ }
 
+  
+ 
  
 
 /* footer */
@@ -135,14 +156,14 @@ footer div.beema-section  ul li  a {
 }
 
 footer div.beema-section  ul li  a:hover {
-    color:#325DB2;
+    color:#2980b9;
 
 }
 
 
 
 .beema-section2 {
-    background-color:#325DB2;
+    background-color:#2980b9;
 
 }
 
