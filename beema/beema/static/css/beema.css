@@ -15,6 +15,10 @@ i {
     line-height: 0px !important;   
 }
 
+.beema-blue {
+    color: #2C57AB !important;
+}
+
 .container {
     width: 90% !important;
 }
@@ -121,9 +125,39 @@ ul.top-first-navigation-right  li a:hover{
     color: lightcyan !important;
  }
 
-  
+.btn-beema {
+    background: #2555AF !important;
+}  
  
+
+.carousel-heading {
+    font-weight: 300 !important;
+    text-transform: capitalize !important;
+    margin-bottom: 40px;
+}
+.carousel-text {
+    font-weight: 300;
+    font-size: 1.1rem !important;
+    margin-bottom: 40px !important;
+    letter-spacing: 1px;
+    
+}
+
+
+.section-intro h5 {
+    font-weight: 500;
+    color:#2F58AA; 
+    
+
+}
  
+.section-intro p {
+    letter-spacing: 1px !important;
+    line-height: 24px;
+    color: #333333;
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
 
 /* footer */
 
