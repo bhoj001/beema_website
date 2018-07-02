@@ -5,6 +5,7 @@ green-color: #27ae60;
 */
 body, html {
     letter-spacing: 0.05rem;
+    margin-bottom:0px;
 }
 
 a {
@@ -15,13 +16,36 @@ i {
     line-height: 0px !important;   
 }
 
-.beema-blue {
+.beema-blue,
+.beema-color {
     color: #2C57AB !important;
 }
 
 .container {
     width: 90% !important;
 }
+
+
+/* Trust on brand homepage */
+.panel-height {
+    min-height: 362px !important;
+  }
+
+
+  .why-container h6, h5 {
+    color: grey;
+    font-weight: 500;
+  }
+
+  .why-container img {
+    display: block;
+    margin: auto auto;
+  }
+
+  .why-container p {
+    font-size: 2rem !important;
+    text-align: center !important;
+  }
 
 
 .top-hr{
@@ -159,6 +183,10 @@ ul.top-first-navigation-right  li a:hover{
     font-size: 1.1rem;
 }
 
+.newsticker li a {
+    padding:30px !important;
+}
+
 /* footer */
 
 .header-title {
@@ -197,7 +225,9 @@ footer div.beema-section  ul li  a:hover {
 
 
 .beema-section2 {
-    background-color:#2980b9;
+    background-color:#2C57AB;
+    width: 100;
+    margin-bottom: 0px;
 
 }
 
