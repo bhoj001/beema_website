@@ -22,7 +22,7 @@ i {
 }
 
 .container {
-    width: 90% !important;
+    width: 85% !important;
 }
 
 
@@ -131,7 +131,7 @@ ul.top-first-navigation-right  li a:hover{
  .notice-section {
     height: 40px !important;
     background: #2980b9;
-    background: linear-gradient(90deg, #2980b9 0%, #2980b9 0%, #27ae60 100%, #27ae60 100%);
+    background: linear-gradient(to left,   #27ae60 75% ,  #2980b9 25%);
     line-height: 30px !important;
     color: #FFFFFF;
     font-weight: 400;
@@ -246,4 +246,16 @@ footer div.beema-section  ul li  a:hover {
 
 .beema-section2 ul > li > a:hover {
     color: #bbbbbb;
+}
+
+
+/* custom media queries */
+@media only screen and (max-width: 768px) {
+    .notice-section{
+        background-color: #000000 !important;
+    }
+}
+
+.media-section h5 {
+    font-size: 1.2rem !important;
 }
